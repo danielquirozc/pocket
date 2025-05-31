@@ -1,4 +1,3 @@
-import { Decimal } from "@prisma/client/runtime/library";
 import FloatingButtons from "./FloatingButtons";
 
 export default function Hero({ currentAmount, targetAmount }: {
