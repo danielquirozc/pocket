@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  button:disabled {
+    @apply cursor-not-allowed opacity-50  ;
+  }
+
+  *:focus-visible {
+    @apply focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+
+  .noise-texture {
+    @apply bg-[url('/noise_texture.webp')] bg-repeat bg-contain absolute inset-0 -z-10 top-0 left-0 w-full h-full;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-montserrat);
+}

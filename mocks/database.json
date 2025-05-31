@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Nueva Laptop",
+    "targetAmount": 1000,
+    "currentAmount": 500,
+    "description": "Necesito una laptop nueva para mis estudios",
+    "status": "active",
+    "createdAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Nueva Laptop",
+    "targetAmount": 1000,
+    "currentAmount": 500,
+    "description": "Necesito una laptop nueva para mis estudios",
+    "status": "archived",
+    "createdAt": "2023-10-01T12:00:00Z"
+  }
+]
